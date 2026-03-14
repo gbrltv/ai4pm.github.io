@@ -598,6 +598,16 @@ h6 {
   padding-top: 50px;
 }
 
+.footer .footer-banner {
+  padding-top: 24px;
+}
+
+.footer .footer-banner-image {
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+}
+
 .footer .social-links a {
   display: flex;
   align-items: center;
