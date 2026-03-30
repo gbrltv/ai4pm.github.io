@@ -934,6 +934,54 @@ section,
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
+.hero .btn-submit {
+  background: transparent;
+  border-color: var(--contrast-color);
+}
+
+.hero .btn-submit:hover {
+  background: var(--contrast-color);
+  color: var(--accent-color);
+}
+
+.submission-cta {
+  text-align: center;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--accent-color) 10%, white 90%);
+  border: 1px solid color-mix(in srgb, var(--accent-color) 22%, white 78%);
+}
+
+.submission-cta p {
+  margin-bottom: 16px;
+}
+
+.submission-cta .submission-link {
+  margin-bottom: 0;
+  word-break: break-word;
+}
+
+.submission-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 28px;
+  margin-bottom: 16px;
+  border-radius: 999px;
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  font-family: var(--heading-font);
+  font-weight: 600;
+  border: 2px solid var(--accent-color);
+  transition: 0.3s;
+}
+
+.submission-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  color: var(--contrast-color);
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
