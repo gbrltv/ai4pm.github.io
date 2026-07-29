@@ -14,7 +14,12 @@
       "Bash(./pw_env/bin/python -m playwright install chromium)",
       "Bash(./pw_env/bin/python shot.py)",
       "Bash(lsof -ti:8935 -sTCP:LISTEN)",
-      "Bash(xargs -r kill)"
+      "Bash(xargs -r kill)",
+      "Bash(sips -g pixelWidth -g pixelHeight -g hasAlpha LOGOBIANCO_MurNolineare_.png PRIN.png REPA-BannerPRIN.png)",
+      "Bash(command -v chromium-cli)",
+      "Bash(node -e \"require\\('playwright'\\)\")",
+      "Bash(python3 -c \"import playwright\")",
+      "Bash(lsof -ti:8934 -sTCP:LISTEN)"
     ]
   }
 }

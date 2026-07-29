@@ -603,9 +603,10 @@ h6 {
 }
 
 .footer .footer-banner-image {
-  width: 100%;
-  max-width: 960px;
+  width: auto;
+  max-width: 100%;
   height: auto;
+  max-height: 140px;
 }
 
 .footer .social-links a {
