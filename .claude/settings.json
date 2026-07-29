@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import openpyxl; print\\('ok'\\)\")",
+      "Bash(mkdir -p /tmp_unzip_check)",
+      "Bash(unzip -o Ai4PM.xlsx -d /private/tmp/claude-501/-Users-barbon-Python-ai4pm-github-io/652eac4b-9352-4dc0-a603-583f2d89342c/scratchpad/ai4pm_xlsx)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import playwright; print\\('ok'\\)\")",
+      "Bash(node -e \"require\\('playwright'\\); console.log\\('ok node'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(python3 -m playwright install chromium)",
+      "Bash(python3 -m venv pw_env)",
+      "Bash(./pw_env/bin/pip install *)",
+      "Bash(./pw_env/bin/python -m playwright install chromium)",
+      "Bash(./pw_env/bin/python shot.py)",
+      "Bash(lsof -ti:8935 -sTCP:LISTEN)",
+      "Bash(xargs -r kill)"
+    ]
+  }
+}
